@@ -1,7 +1,7 @@
 name: twitter-env
 
 channels:
-  - conda-forge  # for geopandas, choicemodels, statsmodels, etc
+  - conda-forge
 
 dependencies:
   - python=3.6
@@ -15,6 +15,7 @@ dependencies:
   - numpy=1.15
   - pandas=0.23
   - pymongo=3.7
+  - pytables=3.4
   - scipy=1.1
 
 
