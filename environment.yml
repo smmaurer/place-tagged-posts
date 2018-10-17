@@ -1,0 +1,26 @@
+name: twitter-env
+
+channels:
+  - conda-forge  # for geopandas, choicemodels, statsmodels, etc
+
+dependencies:
+  - python=3.6
+  - dask=0.19
+  - folium=0.5
+  - geopandas=0.3
+  - jupyter=1.0
+  - line_profiler=2.1
+  - matplotlib=2.2
+  - memory_profiler=0.54
+  - numpy=1.15
+  - pandas=0.23
+  - pymongo=3.7
+  - scipy=1.1
+
+
+# One-time setup (several minutes):
+#   `conda env create -f environment.yml`
+
+# Activate the environment:
+#   `source activate twitter-env`
+
